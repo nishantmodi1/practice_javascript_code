@@ -1,0 +1,13 @@
+// 4. Print all odd numbers between 1 and 100.
+
+function printOdd() {
+  let n=1
+  while(n<=100){
+    if(n%2!==0){
+      console.log(n)
+    }
+    n++
+  }
+}
+
+printOdd()
